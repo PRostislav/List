@@ -8,6 +8,8 @@ int main()
 {
 	TList<int> list;
 	list.PushFirst(4);
+	list.PushFirst(4);
+	list.PushFirst(4);
 	list.PushLast(5);
     return 0;
 }
