@@ -6,11 +6,17 @@
 
 int main()
 {
+	TLink<int> a;
+	if (a.pNext == NULL)
+		cout << "TRUE";
 	TList<int> list;
-	list.PushFirst(4);
-	list.PushFirst(4);
-	list.PushFirst(4);
-	list.PushLast(5);
+	if (list.IsEmpty())
+		cout << "EMPTY";
+	list.ShowList();
+	//list.PushFirst(4);
+	//list.PushFirst(4);
+	//list.PushFirst(4);
+	//list.PushLast(5);
     return 0;
 }
 
